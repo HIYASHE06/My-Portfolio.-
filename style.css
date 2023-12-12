@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #6a1d1d;
+      overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      float: left;
+      color: #2c1a1a;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #7c1d1d;
+    color: rgb(110, 85, 170);
+  }
+  
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav{
+    float: left;
+  }
+   /* Style the image below the navigation bar */
+   .background-image {
+    background-image: url("./02-hero-bg.jpg"); /* Replace with your image path */
+    background-size: cover; /* Adjust to fit the container */
+    height: 180px; /* Set the desired height */
+    /* Add any other styling you need */
+  }
+    /* Style the work experience section */
+    .work-experience {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+  }
+  
+  /* Style the image container */
+  .image-container {
+      flex: 1;
+      padding-right: 20px;
+  }
+  
+  /* Style the image */
+  .work-image {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  /* Style the text container */
+  .text-container {
+      flex: 2;
+  }
+  
+  /* Style the text content */
+  .work-text {
+      font-size: 18px;
+      line-height: 1.5;
+  }
+   /* Create a grid layout */
+   .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 10px; /* Add spacing between images */
+  }
+  
+  /* Style the images (adjust as needed) */
+  .image-grid img {
+    width: 100%; /* Make images fill the available space */
+    height: auto; /* Maintain aspect ratio */
+  }
+   /* Style the contact section */
+   .contact-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the contact links */
+  .contact-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .contact-links a:hover {
+    color: #04AA6D;
+  }
